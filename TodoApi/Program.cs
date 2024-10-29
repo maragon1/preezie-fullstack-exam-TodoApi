@@ -10,10 +10,17 @@ builder.Services.AddCors(options =>
                           .AllowAnyHeader());
 });
 
-builder.Services.AddControllers(); // Add support for controllers
+builder.Services.AddControllers(); 
+builder.Services.AddEndpointsApiExplorer(); 
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Todo API v1");
+    c.RoutePrefix = string.Empty;
+});
 app.UseCors("AllowAllOrigins");
 app.MapControllers(); // Map routes to controllers
 
