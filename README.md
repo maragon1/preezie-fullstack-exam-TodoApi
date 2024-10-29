@@ -1,7 +1,7 @@
 # TodoAPI
 
 **Live Demo**:  
-Visit the live application at [TodoAPI](https://mark-aragon-preezie-566cd548cf0e.herokuapp.com/index.html)).
+Visit the live application at [TodoAPI](https://mark-aragon-preezie-566cd548cf0e.herokuapp.com/index.html).
 
 ## Overview
 
