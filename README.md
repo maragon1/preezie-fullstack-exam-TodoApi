@@ -1,11 +1,11 @@
-# Todo API
+# TodoAPI
 
 **Live Demo**:  
-Visit the live application at [Preezie API](https://mark-aragon-preezie-566cd548cf0e.herokuapp.com/).
+Visit the live application at [TodoAPI](https://mark-aragon-preezie-566cd548cf0e.herokuapp.com/).
 
 ## Overview
 
-Todo API is a simple task management API developed in ASP.NET Core. It allows users to create, update, delete, and retrieve tasks. The API is fully documented and accessible via a Swagger UI interface.
+It allows users to create, update, delete, and retrieve tasks. The API is fully documented and accessible via a Swagger UI interface.
 
 ## Features
 
