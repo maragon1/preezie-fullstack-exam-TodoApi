@@ -1,1 +1,1 @@
-web: ./mark-aragon-preezie
+web: dotnet TodoApi.dll
